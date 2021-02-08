@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    padding: 1em
+}
+
+.notification {
+    padding: 10px;
+    background: #FFFF99;
+    margin-bottom: 20px;
+}
+
+.messier_card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: darkgray;
+    max-width: 40%;
+    display:flex;
+    height: 150px;
+}
+
+.messier_card.tracked {
+    background-color: lightgreen;
+}
+
+.messier_card .info {
+    width: 80%
+}
+
+.messier_card .info li {
+    margin-top: 10px;
+}
+
+.messier_card img {
+    margin: 0;
+    width: 20%;
+    object-fit: fill;
+}
+
+.log_options {
+    margin-top: 10px;
+}
+
+.log_options li {
+    margin-right: 10px;
+    display: inline;
+}
+
+form.log_entry {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.log_options {
+    margin-top: 25px;
+}
+
+.low_mag {
+    color: green;
+}
+
+.midlow_mag {
+    color: yellow;
+}
+
+.midhigh_mag {
+    color: orange;
+}
+
+.high_mag {
+    color: red;
+}
+
+.magnitude {
+    text-shadow:
+        0.08em 0 black,
+        0 0.08em black,
+        -0.08em 0 black,
+        0 -0.08em black;
+}

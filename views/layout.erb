@@ -4,10 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <title>messier-tracker</title>
+  <link rel="stylesheet" href="/stylesheets/whitespace-reset.css">
   <link rel="stylesheet" href="/stylesheets/messier-tracker.css">
 </head>
 
 <body>
+  <% if session[:message] %>
+    <div class="notification">
+      <p><%= session.delete(:message) %></p>
+    </div>
+  <% end %>
   <%= yield %>
 </body>
 </html>

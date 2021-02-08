@@ -1,0 +1,11 @@
+<div>
+  <%= messier_card(@number, @info, :add) %>
+  <form class="log_entry" action="/add/<%= @number %>" method=post>
+    <label for="log_entry">Observation Log:</label>
+    <div>
+      <textarea name="log_entry" rows="20" cols="93"><%= params[:log_entry] %></textarea>
+    </div>
+    <button type="submit">Save Log</button>
+  </form>
+  <a href="/">Cancel</a>
+</div>

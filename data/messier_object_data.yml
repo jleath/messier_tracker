@@ -1,0 +1,1211 @@
+---
+M1:
+  :name: Crab Nebula
+  :img_filename: 1.jpg
+  :type: Supernova remnant
+  :constellation: Taurus
+  :magnitude: '8.4'
+  :ascension:
+  - '05'
+  - '34'
+  - '31.94'
+  :declination: "+22° 00′ 52.2″"
+M2:
+  :name: ''
+  :img_filename: 2.jpg
+  :type: Globular cluster
+  :constellation: Aquarius
+  :magnitude: '6.3'
+  :ascension:
+  - '21'
+  - '33'
+  - '27.02'
+  :declination: "−00° 49′ 23.7″"
+M3:
+  :name: ''
+  :img_filename: 3.jpg
+  :type: Globular cluster
+  :constellation: Canes Venatici
+  :magnitude: '6.2'
+  :ascension:
+  - '13'
+  - '42'
+  - '11.62'
+  :declination: "+28° 22′ 38.2″"
+M4:
+  :name: ''
+  :img_filename: 4.jpg
+  :type: Globular cluster
+  :constellation: Scorpius
+  :magnitude: '5.9'
+  :ascension:
+  - '16'
+  - '23'
+  - '35.22'
+  :declination: "−26° 31′ 32.7″"
+M5:
+  :name: ''
+  :img_filename: 5.jpg
+  :type: Globular cluster
+  :constellation: Serpens
+  :magnitude: '6.7'
+  :ascension:
+  - '15'
+  - '18'
+  - '33.22'
+  :declination: "+02° 04′ 51.7″"
+M6:
+  :name: Butterfly Cluster
+  :img_filename: 6.jpg
+  :type: Open cluster
+  :constellation: Scorpius
+  :magnitude: '4.2'
+  :ascension:
+  - '17'
+  - '40.1'
+  - 
+  :declination: "−32° 13′"
+M7:
+  :name: Ptolemy Cluster
+  :img_filename: 7.jpg
+  :type: Open cluster
+  :constellation: Scorpius
+  :magnitude: '3.3'
+  :ascension:
+  - '17'
+  - '53'
+  - '51.2'
+  :declination: "−34° 47′ 34″"
+M8:
+  :name: Lagoon Nebula
+  :img_filename: 8.jpg
+  :type: Nebula
+  :constellation: Sagittarius
+  :magnitude: '6.0'
+  :ascension:
+  - '18'
+  - '03'
+  - '37'
+  :declination: "−24° 23′ 12″"
+M9:
+  :name: ''
+  :img_filename: 9.jpg
+  :type: Globular cluster
+  :constellation: Ophiuchus
+  :magnitude: '8.4'
+  :ascension:
+  - '17'
+  - '19'
+  - '11.78'
+  :declination: "−18° 30′ 58.5″"
+M10:
+  :name: ''
+  :img_filename: 10.jpg
+  :type: Globular cluster
+  :constellation: Ophiuchus
+  :magnitude: '6.4'
+  :ascension:
+  - '16'
+  - '57'
+  - '8.92'
+  :declination: "−04° 05′ 58.07″"
+M11:
+  :name: Wild Duck Cluster
+  :img_filename: 11.jpg
+  :type: Open cluster
+  :constellation: Scutum
+  :magnitude: '6.3'
+  :ascension:
+  - '18'
+  - '51.1'
+  - 
+  :declination: "−06° 16′"
+M12:
+  :name: ''
+  :img_filename: 12.jpg
+  :type: Globular cluster
+  :constellation: Ophiuchus
+  :magnitude: '7.7'
+  :ascension:
+  - '16'
+  - '47'
+  - '14.18'
+  :declination: "−01° 56′ 54.7″"
+M13:
+  :name: Great Globular Cluster in Hercules
+  :img_filename: 13.jpg
+  :type: Globular cluster
+  :constellation: Hercules
+  :magnitude: '5.8'
+  :ascension:
+  - '16'
+  - '41'
+  - '41.24'
+  :declination: "+36° 27′ 35.5″"
+M14:
+  :name: ''
+  :img_filename: 14.jpg
+  :type: Globular cluster
+  :constellation: Ophiuchus
+  :magnitude: '8.3'
+  :ascension:
+  - '17'
+  - '37'
+  - '36.15'
+  :declination: "−03° 14′ 45.3″"
+M15:
+  :name: ''
+  :img_filename: 15.jpg
+  :type: Globular cluster
+  :constellation: Pegasus
+  :magnitude: '6.2'
+  :ascension:
+  - '21'
+  - '29'
+  - '58.33'
+  :declination: "+12° 10′ 01.2″"
+M16:
+  :name: Eagle Nebula
+  :img_filename: 16.jpg
+  :type: H II region
+  :constellation: Serpens
+  :magnitude: '6.0'
+  :ascension:
+  - '18'
+  - '18'
+  - '48'
+  :declination: "−13° 49′"
+M17:
+  :name: Omega, Swan, Horseshoe, or Lobster Nebula
+  :img_filename: 17.jpg
+  :type: H II region
+  :constellation: Sagittarius
+  :magnitude: '6.0'
+  :ascension:
+  - '18'
+  - '20'
+  - '26'
+  :declination: "−16° 10′ 36″"
+M18:
+  :name: ''
+  :img_filename: 18.jpg
+  :type: Open cluster
+  :constellation: Sagittarius
+  :magnitude: '7.5'
+  :ascension:
+  - '18'
+  - '19.9'
+  - 
+  :declination: "−17° 08′"
+M19:
+  :name: ''
+  :img_filename: 19.jpg
+  :type: Globular cluster
+  :constellation: Ophiuchus
+  :magnitude: '7.5'
+  :ascension:
+  - '17'
+  - '02'
+  - '37.69'
+  :declination: "−26° 16′ 04.6″"
+M20:
+  :name: Trifid Nebula
+  :img_filename: 20.jpg
+  :type: H II region
+  :constellation: Sagittarius
+  :magnitude: '6.3'
+  :ascension:
+  - '18'
+  - '02'
+  - '23'
+  :declination: "−23° 01′ 48″"
+M21:
+  :name: ''
+  :img_filename: 21.jpg
+  :type: Open cluster
+  :constellation: Sagittarius
+  :magnitude: '6.5'
+  :ascension:
+  - '18'
+  - '04.6'
+  - 
+  :declination: "−22° 30′"
+M22:
+  :name: Sagittarius Cluster
+  :img_filename: 22.jpg
+  :type: Globular cluster
+  :constellation: Sagittarius
+  :magnitude: '5.1'
+  :ascension:
+  - '18'
+  - '36'
+  - '23.94'
+  :declination: "−23° 54′ 17.1″"
+M23:
+  :name: ''
+  :img_filename: 23.jpg
+  :type: Open cluster
+  :constellation: Sagittarius
+  :magnitude: '6.9'
+  :ascension:
+  - '17'
+  - '56.8'
+  - 
+  :declination: "−19° 01′"
+M24:
+  :name: Small Sagittarius Star Cloud
+  :img_filename: 24.jpg
+  :type: Milky Way
+  :constellation: Sagittarius
+  :magnitude: '2.5'
+  :ascension:
+  - '18'
+  - '17'
+  - 
+  :declination: "−18° 33′"
+M25:
+  :name: ''
+  :img_filename: 25.jpg
+  :type: Open cluster
+  :constellation: Sagittarius
+  :magnitude: '4.6'
+  :ascension:
+  - '18'
+  - '31.6'
+  - 
+  :declination: "−19° 15′"
+M26:
+  :name: ''
+  :img_filename: 26.jpg
+  :type: Open cluster
+  :constellation: Scutum
+  :magnitude: '8.0'
+  :ascension:
+  - '18'
+  - '45.2'
+  - 
+  :declination: "−09° 24′"
+M27:
+  :name: Dumbbell Nebula
+  :img_filename: 27.jpg
+  :type: Planetary nebula
+  :constellation: Vulpecula
+  :magnitude: '7.5'
+  :ascension:
+  - '19'
+  - '59'
+  - '36.340'
+  :declination: "+22° 43′ 16.09″"
+M28:
+  :name: ''
+  :img_filename: 28.jpg
+  :type: Globular cluster
+  :constellation: Sagittarius
+  :magnitude: '7.7'
+  :ascension:
+  - '18'
+  - '24'
+  - '32.89'
+  :declination: "−24° 52′ 11.4″"
+M29:
+  :name: " Cooling Tower "
+  :img_filename: 29.jpg
+  :type: Open cluster
+  :constellation: Cygnus
+  :magnitude: '7.1'
+  :ascension:
+  - '20'
+  - '23'
+  - '56'
+  :declination: "+38° 31′ 24″"
+M30:
+  :name: ''
+  :img_filename: 30.jpg
+  :type: Globular cluster
+  :constellation: Capricornus
+  :magnitude: '7.7'
+  :ascension:
+  - '21'
+  - '40'
+  - '22.12'
+  :declination: "−23° 10′ 47.5″"
+M31:
+  :name: Andromeda Galaxy
+  :img_filename: 31.jpg
+  :type: Spiral galaxy
+  :constellation: Andromeda
+  :magnitude: '3.4'
+  :ascension:
+  - '00'
+  - '42'
+  - '44.3'
+  :declination: "+41° 16′ 9″"
+M32:
+  :name: ''
+  :img_filename: 32.jpg
+  :type: Dwarf elliptical galaxy
+  :constellation: Andromeda
+  :magnitude: '8.1'
+  :ascension:
+  - '00'
+  - '42'
+  - '41.8'
+  :declination: "+40° 51′ 55″"
+M33:
+  :name: Triangulum Galaxy
+  :img_filename: 33.jpg
+  :type: Spiral galaxy
+  :constellation: Triangulum
+  :magnitude: '5.7'
+  :ascension:
+  - '01'
+  - '33'
+  - '50.02'
+  :declination: "+30° 39′ 36.7″"
+M34:
+  :name: ''
+  :img_filename: 34.jpg
+  :type: Open cluster
+  :constellation: Perseus
+  :magnitude: '5.5'
+  :ascension:
+  - '02'
+  - '42.1'
+  - 
+  :declination: "+42° 46′"
+M35:
+  :name: ''
+  :img_filename: 35.jpg
+  :type: Open cluster
+  :constellation: Gemini
+  :magnitude: '5.3'
+  :ascension:
+  - '06'
+  - '09.1'
+  - 
+  :declination: "+24° 21′"
+M36:
+  :name: ''
+  :img_filename: 36.jpg
+  :type: Open cluster
+  :constellation: Auriga
+  :magnitude: '6.3'
+  :ascension:
+  - '05'
+  - '36'
+  - '12'
+  :declination: "+34° 08′ 4″"
+M37:
+  :name: ''
+  :img_filename: 37.jpg
+  :type: Open cluster
+  :constellation: Auriga
+  :magnitude: '6.2'
+  :ascension:
+  - '05'
+  - '52'
+  - '18'
+  :declination: "+32° 33′ 02″"
+M38:
+  :name: Starfish Cluster
+  :img_filename: 38.jpg
+  :type: Open cluster
+  :constellation: Auriga
+  :magnitude: '7.4'
+  :ascension:
+  - '05'
+  - '28'
+  - '42'
+  :declination: "+35° 51′ 18″"
+M39:
+  :name: ''
+  :img_filename: 39.jpg
+  :type: Open cluster
+  :constellation: Cygnus
+  :magnitude: '5.5'
+  :ascension:
+  - '21'
+  - '31'
+  - '42'
+  :declination: "+48° 26′ 00″"
+M40:
+  :name: Winnecke 4
+  :img_filename: 40.jpg
+  :type: Double star
+  :constellation: Ursa Major
+  :magnitude: '9.7'
+  :ascension:
+  - '12'
+  - '22'
+  - '12.5'
+  :declination: "+58° 4′ 59″"
+M41:
+  :name: ''
+  :img_filename: 41.jpg
+  :type: Open cluster
+  :constellation: Canis Major
+  :magnitude: '4.5'
+  :ascension:
+  - '06'
+  - '46.0'
+  - 
+  :declination: "−20° 46′"
+M42:
+  :name: Orion Nebula
+  :img_filename: 42.jpg
+  :type: H II region
+  :constellation: Orion
+  :magnitude: '4.0'
+  :ascension:
+  - '05'
+  - '35'
+  - '17.3'
+  :declination: "−05° 23′ 28″"
+M43:
+  :name: De Mairan's Nebula
+  :img_filename: 43.jpg
+  :type: H II region
+  :constellation: Orion
+  :magnitude: '9.0'
+  :ascension:
+  - '05'
+  - '35.6'
+  - 
+  :declination: "−05° 16′"
+M44:
+  :name: Beehive Cluster or Praesepe
+  :img_filename: 44.jpg
+  :type: Open cluster
+  :constellation: Cancer
+  :magnitude: '3.7'
+  :ascension:
+  - '08'
+  - '40.4'
+  - 
+  :declination: "+19° 59′"
+M45:
+  :name: Pleiades
+  :img_filename: 45.jpg
+  :type: Open cluster
+  :constellation: Taurus
+  :magnitude: '1.6'
+  :ascension:
+  - '03'
+  - '47'
+  - '24'
+  :declination: "+24° 07′ 00″"
+M46:
+  :name: ''
+  :img_filename: 46.jpg
+  :type: Open cluster
+  :constellation: Puppis
+  :magnitude: '6.1'
+  :ascension:
+  - '07'
+  - '41.8'
+  - 
+  :declination: "−14° 49′"
+M47:
+  :name: ''
+  :img_filename: 47.jpg
+  :type: Open cluster
+  :constellation: Puppis
+  :magnitude: '4.2'
+  :ascension:
+  - '07'
+  - '36.6'
+  - 
+  :declination: "−14° 30′"
+M48:
+  :name: ''
+  :img_filename: 48.jpg
+  :type: Open cluster
+  :constellation: Hydra
+  :magnitude: '5.5'
+  :ascension:
+  - '08'
+  - '13.7'
+  - 
+  :declination: "−05° 45′"
+M49:
+  :name: ''
+  :img_filename: 49.jpg
+  :type: Elliptical galaxy
+  :constellation: Virgo
+  :magnitude: '9.4'
+  :ascension:
+  - '12'
+  - '29'
+  - '46.7'
+  :declination: "+08° 00′ 02″"
+M50:
+  :name: ''
+  :img_filename: 50.jpg
+  :type: Open cluster
+  :constellation: Monoceros
+  :magnitude: '5.9'
+  :ascension:
+  - '07'
+  - '03.2'
+  - 
+  :declination: "−08° 20′"
+M51:
+  :name: Whirlpool Galaxy
+  :img_filename: 51.jpg
+  :type: Spiral galaxy
+  :constellation: Canes Venatici
+  :magnitude: '8.4'
+  :ascension:
+  - '13'
+  - '29'
+  - '52.7'
+  :declination: "+47° 11′ 43″"
+M52:
+  :name: ''
+  :img_filename: 52.jpg
+  :type: Open cluster
+  :constellation: Cassiopeia
+  :magnitude: '5.0'
+  :ascension:
+  - '23'
+  - '24.2'
+  - 
+  :declination: "+61° 35′"
+M53:
+  :name: ''
+  :img_filename: 53.jpg
+  :type: Globular cluster
+  :constellation: Coma Berenices
+  :magnitude: '8.3'
+  :ascension:
+  - '13'
+  - '12'
+  - '55.25'
+  :declination: "+18° 10′ 05.4″"
+M54:
+  :name: ''
+  :img_filename: 54.jpg
+  :type: Globular cluster
+  :constellation: Sagittarius
+  :magnitude: '8.4'
+  :ascension:
+  - '18'
+  - '55'
+  - '03.33'
+  :declination: "−30° 28′ 47.5″"
+M55:
+  :name: ''
+  :img_filename: 55.jpg
+  :type: Globular cluster
+  :constellation: Sagittarius
+  :magnitude: '7.4'
+  :ascension:
+  - '19'
+  - '39'
+  - '59.71'
+  :declination: "−30° 57′ 53.1″"
+M56:
+  :name: ''
+  :img_filename: 56.jpg
+  :type: Globular cluster
+  :constellation: Lyra
+  :magnitude: '8.3'
+  :ascension:
+  - '19'
+  - '16'
+  - '35.57'
+  :declination: "+30° 11′ 00.5″"
+M57:
+  :name: Ring Nebula
+  :img_filename: 57.jpg
+  :type: Planetary nebula
+  :constellation: Lyra
+  :magnitude: '8.8'
+  :ascension:
+  - '18'
+  - '53'
+  - '35.079'
+  :declination: "+33° 01′ 45.03″"
+M58:
+  :name: ''
+  :img_filename: 58.jpg
+  :type: Barred Spiral galaxy
+  :constellation: Virgo
+  :magnitude: '10.5'
+  :ascension:
+  - '12'
+  - '37'
+  - '43.5'
+  :declination: "+11° 49′ 05″"
+M59:
+  :name: ''
+  :img_filename: 59.jpg
+  :type: Elliptical galaxy
+  :constellation: Virgo
+  :magnitude: '10.6'
+  :ascension:
+  - '12'
+  - '42'
+  - '02.3'
+  :declination: "+11° 38′ 49″"
+M60:
+  :name: ''
+  :img_filename: 60.jpg
+  :type: Elliptical galaxy
+  :constellation: Virgo
+  :magnitude: '9.8'
+  :ascension:
+  - '12'
+  - '43'
+  - '39.6'
+  :declination: "+11° 33′ 09″"
+M61:
+  :name: ''
+  :img_filename: 61.jpg
+  :type: Spiral galaxy
+  :constellation: Virgo
+  :magnitude: '10.2'
+  :ascension:
+  - '12'
+  - '21'
+  - '54.9'
+  :declination: "+04° 28′ 25″"
+M62:
+  :name: ''
+  :img_filename: 62.jpg
+  :type: Globular cluster
+  :constellation: Ophiuchus
+  :magnitude: '7.4'
+  :ascension:
+  - '17'
+  - '01'
+  - '12.60'
+  :declination: "−30° 06′ 44.5″"
+M63:
+  :name: Sunflower Galaxy
+  :img_filename: 63.jpg
+  :type: Spiral galaxy
+  :constellation: Canes Venatici
+  :magnitude: '9.3'
+  :ascension:
+  - '13'
+  - '15'
+  - '49.3'
+  :declination: "+42° 01′ 45″"
+M64:
+  :name: Black Eye Galaxy
+  :img_filename: 64.jpg
+  :type: Spiral galaxy
+  :constellation: Coma Berenices
+  :magnitude: '9.4'
+  :ascension:
+  - '12'
+  - '56'
+  - '43.7'
+  :declination: "+21° 40′ 58″"
+M65:
+  :name: Leo Triplet
+  :img_filename: 65.jpg
+  :type: Barred Spiral galaxy
+  :constellation: Leo
+  :magnitude: '10.3'
+  :ascension:
+  - '11'
+  - '18'
+  - '55.9'
+  :declination: "+13° 05′ 32″"
+M66:
+  :name: Leo Triplet
+  :img_filename: 66.jpg
+  :type: Barred Spiral galaxy
+  :constellation: Leo
+  :magnitude: '8.9'
+  :ascension:
+  - '11'
+  - '20'
+  - '15.0'
+  :declination: "+12° 59′ 30″"
+M67:
+  :name: ''
+  :img_filename: 67.jpg
+  :type: Open cluster
+  :constellation: Cancer
+  :magnitude: '6.1'
+  :ascension:
+  - '08'
+  - '51.3'
+  - 
+  :declination: "+11° 49′"
+M68:
+  :name: ''
+  :img_filename: 68.jpg
+  :type: Globular cluster
+  :constellation: Hydra
+  :magnitude: '9.7'
+  :ascension:
+  - '12'
+  - '39'
+  - '27.98'
+  :declination: "−26° 44′ 38.6″"
+M69:
+  :name: ''
+  :img_filename: 69.jpg
+  :type: Globular cluster
+  :constellation: Sagittarius
+  :magnitude: '8.3'
+  :ascension:
+  - '18'
+  - '31'
+  - '23.10'
+  :declination: "−32° 20′ 53.1″"
+M70:
+  :name: ''
+  :img_filename: 70.jpg
+  :type: Globular cluster
+  :constellation: Sagittarius
+  :magnitude: '9.1'
+  :ascension:
+  - '18'
+  - '43'
+  - '12.76'
+  :declination: "−32° 17′ 31.6″"
+M71:
+  :name: ''
+  :img_filename: 71.jpg
+  :type: Globular cluster
+  :constellation: Sagitta
+  :magnitude: '6.1'
+  :ascension:
+  - '19'
+  - '53'
+  - '46.49'
+  :declination: "+18° 46′ 45.1″"
+M72:
+  :name: ''
+  :img_filename: 72.jpg
+  :type: Globular cluster
+  :constellation: Aquarius
+  :magnitude: '9.4'
+  :ascension:
+  - '20'
+  - '53'
+  - '27.70'
+  :declination: "−12° 32′ 14.3″"
+M73:
+  :name: ''
+  :img_filename: 73.jpg
+  :type: Asterism
+  :constellation: Aquarius
+  :magnitude: '9.0'
+  :ascension:
+  - '20'
+  - '58'
+  - '54'
+  :declination: "−12° 38′"
+M74:
+  :name: Phantom Galaxy
+  :img_filename: 74.jpg
+  :type: Spiral galaxy
+  :constellation: Pisces
+  :magnitude: '10.0'
+  :ascension:
+  - '01'
+  - '36'
+  - '41.8'
+  :declination: "+15° 47′ 01″"
+M75:
+  :name: ''
+  :img_filename: 75.jpg
+  :type: Globular cluster
+  :constellation: Sagittarius
+  :magnitude: '9.2'
+  :ascension:
+  - '20'
+  - '06'
+  - '04.75'
+  :declination: "−21° 55′ 16.2″"
+M76:
+  :name: Little Dumbbell Nebula
+  :img_filename: 76.jpg
+  :type: Planetary nebula
+  :constellation: Perseus
+  :magnitude: '10.1'
+  :ascension:
+  - '01'
+  - '42.4'
+  - 
+  :declination: "+51° 34′ 31″"
+M77:
+  :name: Cetus A
+  :img_filename: 77.jpg
+  :type: Spiral galaxy
+  :constellation: Cetus
+  :magnitude: '9.6'
+  :ascension:
+  - '02'
+  - '42'
+  - '40.7'
+  :declination: "−00° 00′ 48″"
+M78:
+  :name: ''
+  :img_filename: 78.jpg
+  :type: Diffuse nebula
+  :constellation: Orion
+  :magnitude: '8.3'
+  :ascension:
+  - '05'
+  - '46'
+  - '46.7'
+  :declination: "+00° 00′ 50″"
+M79:
+  :name: ''
+  :img_filename: 79.jpg
+  :type: Globular cluster
+  :constellation: Lepus
+  :magnitude: '8.6'
+  :ascension:
+  - '05'
+  - '24'
+  - '10.59'
+  :declination: "−24° 31′ 27.3″"
+M80:
+  :name: ''
+  :img_filename: 80.jpg
+  :type: Globular cluster
+  :constellation: Scorpius
+  :magnitude: '7.9'
+  :ascension:
+  - '16'
+  - '17'
+  - '02.41'
+  :declination: "−22° 58′ 33.9″"
+M81:
+  :name: Bode's Galaxy
+  :img_filename: 81.jpg
+  :type: Spiral galaxy
+  :constellation: Ursa Major
+  :magnitude: '6.9'
+  :ascension:
+  - '09'
+  - '55'
+  - '33.2'
+  :declination: "+69° 3′ 55″"
+M82:
+  :name: Cigar Galaxy
+  :img_filename: 82.jpg
+  :type: Starburst galaxy
+  :constellation: Ursa Major
+  :magnitude: '8.4'
+  :ascension:
+  - '09'
+  - '55'
+  - '52.2'
+  :declination: "+69° 40′ 47″"
+M83:
+  :name: Southern Pinwheel Galaxy
+  :img_filename: 83.jpg
+  :type: Barred Spiral galaxy
+  :constellation: Hydra
+  :magnitude: '7.5'
+  :ascension:
+  - '13'
+  - '37'
+  - '00.9'
+  :declination: "−29° 51′ 57″"
+M84:
+  :name: ''
+  :img_filename: 84.jpg
+  :type: Lenticular galaxy
+  :constellation: Virgo
+  :magnitude: '10.1'
+  :ascension:
+  - '12'
+  - '25'
+  - '03.7'
+  :declination: "+12° 53′ 13″"
+M85:
+  :name: ''
+  :img_filename: 85.jpg
+  :type: Lenticular galaxy
+  :constellation: Coma Berenices
+  :magnitude: '10.0'
+  :ascension:
+  - '12'
+  - '25'
+  - '24.0'
+  :declination: "+18° 11′ 28″"
+M86:
+  :name: ''
+  :img_filename: 86.jpg
+  :type: Lenticular galaxy
+  :constellation: Virgo
+  :magnitude: '9.8'
+  :ascension:
+  - '12'
+  - '26'
+  - '11.7'
+  :declination: "+12° 56′ 46″"
+M87:
+  :name: Virgo A
+  :img_filename: 87.jpg
+  :type: Elliptical galaxy
+  :constellation: Virgo
+  :magnitude: '9.6'
+  :ascension:
+  - '12'
+  - '30'
+  - '49.42338'
+  :declination: "+12° 23′ 28.0439″"
+M88:
+  :name: ''
+  :img_filename: 88.jpg
+  :type: Spiral galaxy
+  :constellation: Coma Berenices
+  :magnitude: '10.4'
+  :ascension:
+  - '12'
+  - '31'
+  - '59.2'
+  :declination: "+14° 25′ 14″"
+M89:
+  :name: ''
+  :img_filename: 89.jpg
+  :type: Elliptical galaxy
+  :constellation: Virgo
+  :magnitude: '10.7'
+  :ascension:
+  - '12'
+  - '35'
+  - '39.8'
+  :declination: "+12° 33′ 23″"
+M90:
+  :name: ''
+  :img_filename: 90.jpg
+  :type: Spiral galaxy
+  :constellation: Virgo
+  :magnitude: '10.3'
+  :ascension:
+  - '12'
+  - '36'
+  - '49.8'
+  :declination: "+13° 09′ 46″"
+M91:
+  :name: ''
+  :img_filename: 91.jpg
+  :type: Barred Spiral galaxy
+  :constellation: Coma Berenices
+  :magnitude: '11.0'
+  :ascension:
+  - '12'
+  - '35'
+  - '26.4'
+  :declination: "+14° 29′ 47″"
+M92:
+  :name: ''
+  :img_filename: 92.jpg
+  :type: Globular cluster
+  :constellation: Hercules
+  :magnitude: '6.3'
+  :ascension:
+  - '17'
+  - '17'
+  - '07.39'
+  :declination: "+43° 08′ 09.4″"
+M93:
+  :name: ''
+  :img_filename: 93.jpg
+  :type: Open cluster
+  :constellation: Puppis
+  :magnitude: '6.0'
+  :ascension:
+  - '07'
+  - '44.6'
+  - 
+  :declination: "−23° 52′"
+M94:
+  :name: Croc's Eye or Cat's Eye
+  :img_filename: 94.jpg
+  :type: Spiral galaxy
+  :constellation: Canes Venatici
+  :magnitude: '9.0'
+  :ascension:
+  - '12'
+  - '50'
+  - '53.1'
+  :declination: "+41° 07′ 14″"
+M95:
+  :name: ''
+  :img_filename: 95.jpg
+  :type: Barred Spiral galaxy
+  :constellation: Leo
+  :magnitude: '11.4'
+  :ascension:
+  - '10'
+  - '43'
+  - '57.7'
+  :declination: "+11° 42′ 14″"
+M96:
+  :name: ''
+  :img_filename: 96.jpg
+  :type: Spiral galaxy
+  :constellation: Leo
+  :magnitude: '10.1'
+  :ascension:
+  - '10'
+  - '46'
+  - '45.7'
+  :declination: "+11° 49′ 12″"
+M97:
+  :name: Owl Nebula
+  :img_filename: 97.jpg
+  :type: Planetary nebula
+  :constellation: Ursa Major
+  :magnitude: '9.9'
+  :ascension:
+  - '11'
+  - '14'
+  - '47.734'
+  :declination: "+55° 01′ 08.50″"
+M98:
+  :name: ''
+  :img_filename: 98.jpg
+  :type: Spiral galaxy
+  :constellation: Coma Berenices
+  :magnitude: '11.0'
+  :ascension:
+  - '12'
+  - '13'
+  - '48.292'
+  :declination: "+14° 54′ 01.69″"
+M99:
+  :name: ''
+  :img_filename: 99.jpg
+  :type: Spiral galaxy
+  :constellation: Coma Berenices
+  :magnitude: '10.4'
+  :ascension:
+  - '12'
+  - '18'
+  - '49.6'
+  :declination: "+14° 24′ 59″"
+M100:
+  :name: ''
+  :img_filename: 100.jpg
+  :type: Spiral galaxy
+  :constellation: Coma Berenices
+  :magnitude: '10.1'
+  :ascension:
+  - '12'
+  - '22'
+  - '54.9'
+  :declination: "+15° 49′ 21″"
+M101:
+  :name: Pinwheel Galaxy
+  :img_filename: 101.jpg
+  :type: Spiral galaxy
+  :constellation: Ursa Major
+  :magnitude: '7.9'
+  :ascension:
+  - '14'
+  - '03'
+  - '12.6'
+  :declination: "+54° 20′ 57″"
+M102:
+  :name: Spindle Galaxy
+  :img_filename: 102.jpg
+  :type: Lenticular galaxy
+  :constellation: Draco
+  :magnitude: '10.7'
+  :ascension:
+  - '15'
+  - '06'
+  - '29.5'
+  :declination: "+55° 45′ 48″"
+M103:
+  :name: ''
+  :img_filename: 103.jpg
+  :type: Open cluster
+  :constellation: Cassiopeia
+  :magnitude: '7.4'
+  :ascension:
+  - '01'
+  - '33.2'
+  - 
+  :declination: "+60° 42′"
+M104:
+  :name: Sombrero Galaxy
+  :img_filename: 104.jpg
+  :type: Spiral galaxy
+  :constellation: Virgo
+  :magnitude: '9.0'
+  :ascension:
+  - '12'
+  - '39'
+  - '59.4'
+  :declination: "−11° 37′ 23″"
+M105:
+  :name: ''
+  :img_filename: 105.jpg
+  :type: Elliptical galaxy
+  :constellation: Leo
+  :magnitude: '10.2'
+  :ascension:
+  - '10'
+  - '47'
+  - '49.6'
+  :declination: "+12° 34′ 54″"
+M106:
+  :name: ''
+  :img_filename: 106.jpg
+  :type: Spiral galaxy
+  :constellation: Canes Venatici
+  :magnitude: '9.1'
+  :ascension:
+  - '12'
+  - '18'
+  - '57.5'
+  :declination: "+47° 18′ 14″"
+M107:
+  :name: ''
+  :img_filename: 107.jpg
+  :type: Globular cluster
+  :constellation: Ophiuchus
+  :magnitude: '8.9'
+  :ascension:
+  - '16'
+  - '32'
+  - '31.86'
+  :declination: "−13° 03′ 13.6″"
+M108:
+  :name: ''
+  :img_filename: 108.jpg
+  :type: Barred Spiral galaxy
+  :constellation: Ursa Major
+  :magnitude: '10.7'
+  :ascension:
+  - '11'
+  - '11'
+  - '31.0'
+  :declination: "+55° 40′ 27″"
+M109:
+  :name: ''
+  :img_filename: 109.jpg
+  :type: Barred Spiral galaxy
+  :constellation: Ursa Major
+  :magnitude: '10.6'
+  :ascension:
+  - '11'
+  - '57'
+  - '36.0'
+  :declination: "+53° 22′ 28″"
+M110:
+  :name: ''
+  :img_filename: 110.jpg
+  :type: Dwarf elliptical galaxy
+  :constellation: Andromeda
+  :magnitude: '9.0'
+  :ascension:
+  - '00'
+  - '40'
+  - '22.1'
+  :declination: "+41° 41′ 07″"

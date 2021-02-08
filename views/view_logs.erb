@@ -1,0 +1,16 @@
+<div>
+  <%= messier_card(@number, @info, :view) %>
+  <% @log_entries.each_with_index do |entry, index| %>
+    <form class="log_entry" action="/edit/<%= @number %>/log/<%= index %>" method="post">
+      <label for="new_entry">Observation Log:</label>
+      <div>
+        <textarea name="new_entry" rows="10" cols="93"><%= entry %></textarea>
+      </div>
+      <button type="submit" id="Edit">Edit Log</button>
+    </form>
+    <form class="log_entry" action="/delete/<%= @number %>/log/<%= index %>" method="post">
+      <button type="submit" id="Delete">Delete Log</button>
+    </form>
+  <% end %>
+  <a href="/">Return to index</a>
+</div>

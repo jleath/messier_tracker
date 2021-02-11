@@ -1,16 +1,24 @@
-<div>
-  <%= messier_card(@number, @info, :view) %>
-  <% @log_entries.each_with_index do |entry, index| %>
-    <form class="log_entry" action="/edit/<%= @number %>/log/<%= index %>" method="post">
-      <label for="new_entry">Observation Log:</label>
-      <div>
-        <textarea name="new_entry" rows="10" cols="93"><%= entry %></textarea>
-      </div>
-      <button type="submit" id="Edit">Edit Log</button>
-    </form>
-    <form class="log_entry" action="/delete/<%= @number %>/log/<%= index %>" method="post">
-      <button type="submit" id="Delete">Delete Log</button>
-    </form>
-  <% end %>
-  <a href="/">Return to index</a>
+<div class="view_container">
+  <div class="log_container">
+    <%= messier_card(@messier_id, @info, :view) %>
+    <% @log_entries.each_with_index do |entry, index| %>
+      <form class="log_entry" action="/edit/<%= @messier_id %>/log/<%= index %>" method="post">
+        <label for="new_entry">Observation Log:</label>
+        <div>
+          <textarea name="new_entry" rows="10" cols="93"><%= entry %></textarea>
+        </div>
+        <button type="submit" id="Edit">Edit Log</button>
+      </form>
+      <form class="log_entry" action="/delete/<%= @messier_id %>/log/<%= index %>" method="post">
+        <button type="submit" id="Delete">Delete Log</button>
+      </form>
+    <% end %>
+    <a href="/">Return to index</a>
+  </div>
+  <div class="aladin_container">
+    <div id="aladin-lite-div" style="width: 500px;height: 500px;"></div>
+  </div>
+  <script>
+    var aladin = A.aladin('#aladin-lite-div', {target: '<%= "M " + @messier_id[1..-1] %>', fov: 0.25});
+  </script>
 </div>

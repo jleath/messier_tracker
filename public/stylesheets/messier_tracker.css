@@ -14,7 +14,6 @@ body {
     padding: 5px;
     margin: 5px;
     background-color: darkgray;
-    max-width: 40%;
     display:flex;
     height: 150px;
 }
@@ -28,7 +27,7 @@ body {
 }
 
 .messier_card .info li {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .messier_card img {
@@ -77,4 +76,16 @@ form.log_entry {
         0 0.08em black,
         -0.08em 0 black,
         0 -0.08em black;
+}
+
+.view_container {
+    display: flex;
+}
+
+.log_container {
+    flex: 1;
+}
+
+.aladin_container {
+    flex: 1;
 }

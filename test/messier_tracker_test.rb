@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 ENV['RACK_ENV'] = 'test'
 
 require 'minitest/autorun'
 require 'minitest/reporters'
 require 'rack/test'
 
-require_relative '../messier-tracker'
+require_relative '../messier_tracker'
 
 Minitest::Reporters.use!
 
@@ -15,12 +17,12 @@ class AppTest < Minitest::Test
     Sinatra::Application
   end
 
-  def existing_logs(messier_number, num_logs)
+  def existing_logs(messier_id, num_logs)
     logs = []
     num_logs.times do |index|
       logs.append("test#{index}")
     end
-    { 'rack.session' => { logs: { messier_number => logs } } }
+    { 'rack.session' => { logs: { messier_id => logs } } }
   end
 
   def session
@@ -30,11 +32,10 @@ class AppTest < Minitest::Test
   def test_index
     get '/'
     assert_equal 200, last_response.status
-    assert_equal 'text/html;charset=utf-8', last_response['Content-Type']
     assert_includes last_response.body, 'M1'
     assert_includes last_response.body, 'View logs'
     assert_includes last_response.body, 'Add new log'
-    assert_equal 110, last_response.body.scan(/<a href=\"view\/.*?\">View logs<\/a>/).size
+    assert_equal 110, last_response.body.scan(%r{<a href="view/.*?">View logs</a>}).size
   end
 
   def test_view_empty_log
@@ -47,27 +48,29 @@ class AppTest < Minitest::Test
   end
 
   def test_view_log
-    get '/view/M33', {}, existing_logs("M33", 1)
+    get '/view/M33', {}, existing_logs('M33', 1)
     assert_equal 200, last_response.status
     assert_includes last_response.body, 'test0'
     assert_includes last_response.body, 'Logged 1 time'
     refute_includes last_response.body, 'View logs'
 
-    get '/view/M33', {}, existing_logs("M33", 2)
+    get '/view/M33', {}, existing_logs('M33', 2)
     assert_equal 200, last_response.status
     assert_includes last_response.body, 'test0'
     assert_includes last_response.body, 'test1'
     assert_includes last_response.body, 'Logged 2 times'
   end
 
-  def test_add_log_form
+  def test_add_log_form_no_entries
     get '/add/M33'
     assert_equal 200, last_response.status
     assert_includes last_response.body, 'M33'
     assert_includes last_response.body, 'Observation Log:'
     assert_includes last_response.body, '<button type="submit">Save Log</button>'
+  end
 
-    get '/add/M33', {}, existing_logs("M33", 2)
+  def test_add_log_form_existing_logs
+    get '/add/M33', {}, existing_logs('M33', 2)
     assert_equal 200, last_response.status
     assert_includes last_response.body, 'Logged 2 times'
     assert_includes last_response.body, 'View logs'

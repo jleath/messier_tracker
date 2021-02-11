@@ -5,10 +5,29 @@
   <meta charset="UTF-8">
   <title>messier-tracker</title>
   <link rel="stylesheet" href="/stylesheets/whitespace-reset.css">
-  <link rel="stylesheet" href="/stylesheets/messier-tracker.css">
+  <link rel="stylesheet" href="/stylesheets/messier_tracker.css">
+  <link rel="stylesheet" href="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.css" />
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js" charset="utf-8"></script>
+  <script type="text/javascript" src="https://aladin.u-strasbg.fr/AladinLite/api/v2/latest/aladin.min.js" charset="utf-8"></script>
 </head>
 
 <body>
+  <div>
+    <p>Latitude: <%= session[:user_latitude] %></p>
+    <p>Longitude: <%= session[:user_longitude] %></p>
+    <p>Current Time: <%= @current_time %></p>
+    <form action="/setcoords" method="post">
+      <div>
+        <label for="new_latitude">Change Latitude:</label>
+        <input name="new_latitude" type="text"><%= params[:new_latitude] %></input>
+      </div>
+      <div>
+        <label for="new_longitude">Change Longitude:</label>
+        <input name="new_longitude" type="text"><%= params[:new_longitude] %></input>
+      </div>
+      <button type="Submit">Set Coordinates</button>
+    </form>
+  </div>
   <% if session[:message] %>
     <div class="notification">
       <p><%= session.delete(:message) %></p>

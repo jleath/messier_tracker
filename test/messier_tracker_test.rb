@@ -108,7 +108,7 @@ class AppTest < Minitest::Test
 
     get last_response['Location']
     assert_equal 200, last_response.status
-    refute_includes last_response.body, 'test'
+    refute_includes last_response.body, 'test0'
     assert_includes last_response.body, 'Logged 0 times'
     refute_includes last_response.body, 'messier_card tracked'
   end

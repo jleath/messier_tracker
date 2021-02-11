@@ -1,4 +1,5 @@
-<div>
+<div class="view_container">
+  <div class="log_container">
   <%= messier_card(@messier_id, @info, :add) %>
   <form class="log_entry" action="/add/<%= @messier_id %>" method=post>
     <label for="log_entry">Observation Log:</label>
@@ -8,4 +9,12 @@
     <button type="submit">Save Log</button>
   </form>
   <a href="/">Cancel</a>
+  </div>
+  <div class="aladin_container">
+    <div id="aladin-lite-div" style="width: 500px;height: 500px;"></div>
+  </div>
+  <script>
+    var aladin = A.aladin('#aladin-lite-div', {target: '<%= "M " + @messier_id[1..-1] %>', fov: 0.25});
+  </script>
+  </div>
 </div>

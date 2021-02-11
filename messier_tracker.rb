@@ -136,7 +136,6 @@ def messier_data_path
 end
 
 def messier_data(messier_id = nil)
-  puts messier_data_path
   all_data = YAML.load_file(messier_data_path)
   dt = @current_time
   lat = session[:user_latitude]

@@ -28,6 +28,9 @@
       <button type="Submit">Set Coordinates</button>
     </form>
   </div>
+  <form action="/visible" method="get">
+    <button type="Submit">Only Show Visible</button>
+  </form>
   <% if session[:message] %>
     <div class="notification">
       <p><%= session.delete(:message) %></p>

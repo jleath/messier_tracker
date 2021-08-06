@@ -1,5 +1,32 @@
 # frozen_string_literal: true
 
+=begin
+TODO List:
+
+- Better handling for user input coordinate values. Need to ensure they
+  are valid before setting values in the session.
+- Decide whether I want to continue with the logging aspect of this or
+  focus more on the position calculations, visibility, etc.
+- Figure out a cleaner way to generate the HTML. I don't like having big
+  heredocs with gobs of HTML in my ruby file.
+- improve testing, write new tests for functionality added since I originally
+  wrote the test suite
+- clean up the css, improve styling
+- use some kind of geography gem to build in some kind of coordinate detection
+  based on ip address or something
+- Probably get rid of logging feature and replace with a dynamically generated
+  and interactive sky chart
+- find a way to hook up to an official database of more celestial objects
+  and use that as a data source rather than a .yml file with only the messier
+  objects. If I do this, I could basically have the main page be a sky chart.
+  clicking on an object on the sky chart could display a little tooltip with
+  some info and a link to send the user to a page with much more info. I
+  actually like this idea a lot and I think I'll do this once I get to a point
+  where I can build an interactive sky chart. Will definitely need javascript
+  AJAX, and better skills with HTML and CSS.
+- 
+=end
+
 require 'sinatra'
 require 'sinatra/reloader' if development?
 require 'tilt/erubis'
@@ -51,6 +78,11 @@ end
 
 get '/' do
   @messier_data = messier_data
+  erb :index
+end
+
+get '/visible' do
+  @messier_data = messier_data.reject { | _, messier_info| messier_info[:altitude] <= 0.00 }
   erb :index
 end
 
